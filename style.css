@@ -8,6 +8,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .headder{
+    
     background-color: dimgray;
     background-position: center;
     flex-flow: row;
@@ -70,13 +71,14 @@ body{
     border: 1px solid rgb(60, 71, 94);
 }
 .How-do-we-help{
+    padding: 10px;
     border: 2px  cornflowerblue solid;
     text-align: center;
     margin: 10px 0px;
-    color: crimson;
+    color: rgb(88, 84, 126);
     width: 100%;
     border-radius: 0px 10px;
-    text-shadow: darkblue 0px 1px 6px ;
+    text-shadow: darkblue 0px 1px 15px ;
 }
 
 .Help-you {
@@ -85,6 +87,10 @@ body{
     align-items: center;
     border: 1px blue outset;
     margin: 5px;
+    background-image: url(./Images/2texture.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .quality-assured {
@@ -94,10 +100,14 @@ body{
 .quality-assured img{
     /* border: coral 1px outset; */
     width: 100%;
+    border-radius: 20%;
 
 }
 .pass{
     width:100%;
     text-align: center;
+    color: rgb(25, 22, 173);
+    font-family: sans-serif;
+    
     
 }
