@@ -4,26 +4,20 @@
     box-sizing: border-box;
 }
 body{
-   color: #2980b9;
+   color: #0b2130;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .logo-content{
-    /* background-color: blueviolet; */
     font-family: monospace;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
+    /* position: sticky;
+    top: 0px; */
     
 }
-.logo-content .text{
- /* background-color: brown; */
- width: 80%;
- color: chocolate;
- line-height: 20px;
- /* margin-left: 10px; */
- 
-}
+
 .logo-mainline{
     color: rgb(39, 39, 133);
     text-shadow: rgb(97, 97, 209) 2px 2px 6px;
@@ -35,52 +29,49 @@ body{
 }
             
 
-.headder{
+.nav-bar{
     
-    background-color: rgb(32, 41, 51);
+    background-image: url(./Images/nav-background.jpg);
     background-position: center;
     flex-flow: row;
     background-size: cover;
     flex-grow: wrap;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
     height: auto;
-
+    border: 1px cornflowerblue outset; 
+    position: sticky;
+    top: 0px;
 }
 .logo-img img{
     border-radius: 10px;
     width: 80px;
 }
- .Home-btn{
-   padding: 5px 20px;
-   border: rgb(53, 86, 194) 2px outset;
-   border-radius: 6px;
+.icon{
+    color: whitesmoke;
+    margin: 0px 10px;
+}
+
    
-}
-.Calci-btn{
-    padding: 5px 10px;
-    border: rgb(53, 86, 194) 2px outset;
-    border-radius: 6px;
-}
-/* #search{
-   width: 200px;
-   height: 7vh;
-   border-radius: 10px;
-   text-align: right;
-} */
+
+
+/* product sample start */
 .our_products{
     text-align: center;
-    color: #3498db;
+    color: #09446b;
     font-style: inherit;
 }
+/* product sample ends */
+
+
 /* slide container */
 .slide-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 100%;
 }
 .slide-img img{
     width: 100% ;
@@ -153,4 +144,15 @@ body{
     font-family: sans-serif;
     
     
+}
+
+/* --------Privicy and Policy ---------*/
+
+.Privacy_policy{
+    border: 2px gray outset;
+}
+.informative{
+    border: 2px gray outset;
+
+   
 }
