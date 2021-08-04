@@ -6,6 +6,7 @@
 body{
    color: #0b2130;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
 }
 .logo-content{
     font-family: monospace;
@@ -25,7 +26,7 @@ body{
 .logo-subline{
     color: dimgrey;
     font-family: cursive;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
             
 
@@ -62,6 +63,7 @@ body{
     text-align: center;
     color: #09446b;
     font-style: inherit;
+    font-size: 1.2rem;
 }
 /* product sample ends */
 
@@ -83,6 +85,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    font-size: .9rem;
 }
 .single-img img{
     width: 150px;
@@ -121,7 +124,7 @@ body{
     align-items: center;
     border: 1px blue outset;
     margin: 5px;
-    background-image: url(./Images/2texture.jpg);
+    background-image: url(./Images/nav-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,17 +133,20 @@ body{
 .quality-assured {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
+    height: 20vh;
 }
 .quality-assured img{
-    /* border: coral 1px outset; */
+    border: coral 1px outset;
     width: 100%;
     border-radius: 20%;
 
 }
 .pass{
+    font-size: 0.7rem;
     width:100%;
     text-align: center;
-    color: rgb(25, 22, 173);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     
     
@@ -152,7 +158,8 @@ body{
     border: 2px gray outset;
 }
 .informative{
-    border: 2px gray outset;
+    border: 0px gray inset;
+    background-color: rgba(199, 198, 198, 0.685);
 
    
 }
