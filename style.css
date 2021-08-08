@@ -41,7 +41,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: auto;
+    height: 6vh;
     border: 1px cornflowerblue outset; 
     position: sticky;
     top: 0px;
@@ -51,24 +51,25 @@ body{
     width: 80px;
 }
 .icon{
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     margin: 0px 10px;
+    
 }
 
    
 
 
-/* product sample start */
+/* product headding start */
 .our_products{
     text-align: center;
     color: #09446b;
     font-style: inherit;
     font-size: 1.2rem;
 }
-/* product sample ends */
+/* product headding ends */
 
 
-/* slide container */
+/* slide container start */
 .slide-container{
     display: flex;
     justify-content: center;
@@ -79,6 +80,10 @@ body{
     width: 100% ;
     height: auto;
 }
+/* slide container start */
+
+
+/* product  Sample start */
 .img-container{
     text-align: center;
     display: flex;
@@ -86,11 +91,23 @@ body{
     align-items: center;
     flex-wrap: wrap;
     font-size: .9rem;
+    cursor: pointer;
 }
 .single-img img{
     width: 150px;
-    margin-top: 10px;
-    cursor: pointer;
+    margin-top: 15px;
+    
+}
+.MRP{
+    color: rgb(117, 108, 108);
+    text-decoration-line: line-through;
+    border: 2px solid brown;
+}
+.add-to-cart{
+    color: whitesmoke;
+    border: 2px solid brown;
+    background-color: darkgreen;
+    
     
 }
 
@@ -107,7 +124,31 @@ body{
     border-radius: 50% ;
     border: 1px solid rgb(60, 71, 94);
 }
+
+/* product  Sample ends */
+
+
+/* Cement Bags start */
+.Cement-text{
+    background-color: lightgrey;
+    height: 5vh;
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+.Cement-Container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.Cement-image img{
+    width: 140px;
+}
+
 .How-do-we-help{
+    font-size: 1rem;
     padding: 10px;
     border: 2px  cornflowerblue solid;
     text-align: center;
